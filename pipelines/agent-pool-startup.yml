@@ -7,7 +7,7 @@ pool:
   vmImage: 'windows-latest'
 
 variables:
-  - group:  ado-agents
+  - group:  docker-ado-agents
 
 schedules:
 - cron: "00 11 * * 1-5"
